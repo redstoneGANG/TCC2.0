@@ -28,7 +28,7 @@ header, .navegation_header {
     font-weight: bold;
 }
 .active {
-    background-color: var(#3a3838);
+    background-color: var(#ddd);
 }
 .container {
     width: 80%;
