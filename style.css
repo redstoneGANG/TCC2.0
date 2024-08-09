@@ -1,5 +1,5 @@
+
 body {
-    font-family: 'Comic sans MS';
     margin: 0;
     padding: 0;
     background-color: rgb(12, 28, 44);
@@ -26,6 +26,7 @@ header, .navegation_header {
     color: var(#727070);
     transition: 1s;
     font-weight: bold;
+    font-family: 'Comic sans MS';
 }
 .active {
     background-color: var(#ddd);
