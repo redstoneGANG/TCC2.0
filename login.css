@@ -1,5 +1,17 @@
 body {
-    background-image: url(img/fundos/backgrond1.jpg);
+    background-image: url(img/backgrond1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Comic sans MS';
+    text-align: center;
+    color: white;
+}
+header {
+    font-family: 'Comic sans MS';
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.icone {
+    image-rendering: url(img/login.png);
 }
