@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/backgrond1.jpg);
+    background-image: url(img/login/backgrond1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Comic sans MS';
@@ -13,5 +13,5 @@ header {
     font-size: 25px;
 }
 .icone {
-    image-rendering: url(img/login.png);
+    image-rendering: url(img/login/login.png);
 }
