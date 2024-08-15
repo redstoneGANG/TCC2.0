@@ -30,7 +30,7 @@ header, .navegation_header {
     font-family: 'Comic sans MS';
 }
 .active {
-    background-color: var(#ddd);
+    background-color: var(#000000);
 }
 .container {
     width: 80%;
