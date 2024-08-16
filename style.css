@@ -20,6 +20,10 @@ header, .navegation_header {
     align-items: center;
     
 }
+.text {
+    color: #ddd;
+    font-family: 'Comic sans MS';
+}
 .navegation_header {
     gap: 1em;
     text-decoration: none;
@@ -84,7 +88,7 @@ footer {
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(45deg, #7e0000, #9c0000, #aa0a0a, #ff2222, #0dd1b0, #2cdfff, #0075fc, #002fff, #002077);
     position: absolute;
     top: -2px;
     left:-2px;
