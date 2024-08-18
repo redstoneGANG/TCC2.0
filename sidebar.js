@@ -9,12 +9,13 @@ function toggleSidebar()
     if(showSidebar)
     {
         //true
-        navegationHeader.style.marginInleft = '-10vw'
+        navegationHeader.style.marginInleft = '-10vw';
+        navegationHeader.style.animationName = 'showSidebar';
     }
     else
     {
         //false
-        navegationHeader.style.marginInleft = '-100vw'
+        navegationHeader.style.marginInleft = '-100vw';
 
     }
 }
