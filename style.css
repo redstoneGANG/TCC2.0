@@ -9,9 +9,6 @@ body {
     color: #ddd;
     font-family: 'Comic sans MS';
 }
-.active {
-    background-color: var(#000000);
-}
 .container {
     width: 80%;
     margin: 0 auto;
