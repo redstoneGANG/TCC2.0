@@ -1,8 +1,7 @@
 header {
     background-color: #272727;
     color: #ddd;
-    padding: 10px 10%;
-    text-align: center;
+    padding: 0px 10%;
     height: 5.5em;
     justify-content: space-between;
     box-shadow: #000000;
@@ -11,13 +10,13 @@ header, .navegation_header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
 }
 .navegation_header {
-    gap: 1em;
+    gap: 0px;
     text-decoration: none;
-    color: #ddd;
-    color: var(#727070);
-    transition: 1s;
+    color: var(#ddd);
+    transition: 0,5s;
     font-weight: bold;
     font-family: 'Comic sans MS';
 }
