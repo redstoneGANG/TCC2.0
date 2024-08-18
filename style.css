@@ -5,32 +5,8 @@ body {
     background-color: rgb(12, 28, 44);
     color: #ddd;
 }
-header {
-    background-color: #272727;
-    color: #ddd;
-    padding: 10px 10%;
-    text-align: center;
-    height: 5.5em;
-    justify-content: space-between;
-    box-shadow: #000000;
-}
-header, .navegation_header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-}
 .text {
     color: #ddd;
-    font-family: 'Comic sans MS';
-}
-.navegation_header {
-    gap: 1em;
-    text-decoration: none;
-    color: #ddd;
-    color: var(#727070);
-    transition: 1s;
-    font-weight: bold;
     font-family: 'Comic sans MS';
 }
 .active {
@@ -77,8 +53,8 @@ footer {
     height: 50px;
     border: none;
     outline: none;
-    color: #000000;
-    background: #afacac;
+    color: #ffffff;
+    background: #000000;
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -121,7 +97,7 @@ footer {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #d1d1d1;
+    background: #000000;
     left: 0;
     top: 0;
     border-radius: 10px;
