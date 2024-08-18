@@ -13,6 +13,8 @@ function toggleSidebar()
     }
     else
     {
+        //false
+        navegationHeader.style.marginInleft = '-100vw'
 
     }
 }
