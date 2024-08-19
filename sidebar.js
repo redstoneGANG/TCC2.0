@@ -1,21 +1,18 @@
-var header = document.getElementById('header');
-var navegationHeader = document.getElementById('navegation_header');
-var content = document.getElementById('content');
-var showSidebar = false;
+// Função para alternar a visibilidade da barra de navegação
+function toggleSidebar() {
+    var navegationHeader = document.querySelector('.navegation_header');
+    var isVisible = navegationHeader.style.marginLeft === '0px';
 
-function toggleSidebar()
-{
-    showSidebar = !showSidebar;
-    if(showSidebar)
-    {
-        //true
-        navegationHeader.style.marginInleft = '-10vw';
-        navegationHeader.style.animationName = 'showSidebar';
-    }
-    else
-    {
-        //false
-        navegationHeader.style.marginInleft = '-100vw';
-
+    if (isVisible) {
+        // Oculta a barra de navegação
+        navegationHeader.style.marginLeft = '-100vw';
+        navegationHeader.style.animationName = ''; // Remove a animação
+    } else {
+        // Exibe a barra de navegação
+        navegationHeader.style.marginLeft = '0';
+        navegationHeader.style.animationName = 'showSidebar'; // Aplica a animação
     }
 }
+
+// Adiciona um ouvinte de evento ao botão de alternância
+document.querySelector('.btn_icon_header').addEventListener('click', toggleSidebar);

@@ -54,6 +54,15 @@ header, .navegation_header {
     }
 }
 @keyframes showSidebar {
-    from {margin-left: -100vw;}
-    top {margin-left: -10vw;}
+    from {
+        margin-left: -100vw;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+#navegation_header {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
 }

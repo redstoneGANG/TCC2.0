@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware Insider</title>
+    
+    <!-- Links para arquivos CSS -->
     <link rel="stylesheet" href="background.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Hardware Insider</title>
 </head>
 <body>
+    <!-- Divs para animação de ondas -->
     <div class="wave"></div>
-     <div class="wave"></div>
-     <div class="wave"></div>
-     <header>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    
+    <header>
+        <!-- Header principal com botão para alternar a barra lateral -->
         <div class="header" id="header">
             <button onclick="toggleSidebar()" class="btn_icon_header">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -20,23 +25,35 @@
                 </svg>
             </button>
         </div>
-        <a href="login.html"><img src="/img/login/login.png" alt=""></a>
+        
+        <!-- Link para a página de login -->
+        <a href="login.html">
+            <img src="/img/login/login.png" alt="Login">
+        </a>
+        
+        <!-- Título da página -->
         <div>
-        <h1>Hardware Insider</h1>
+            <h1>Hardware Insider</h1>
         </div>
+        
+        <!-- Barra de navegação -->
         <div class="navegation_header">
             <button onclick="toggleSidebar()" class="btn_icon_header">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                     <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
                 </svg>
             </button>
-            <a class="active" href="index.html">home</a>
+            <a class="active" href="index.html">Home</a>
             <a class="active" href="dicas.html">Dicas</a>
             <a class="active" href="sobre.html">Sobre nós</a>
             <a class="active" href="contatos.html">Contatos</a>
-            <a href="" ><img src="img/pesquisa.png" alt=""></a>
+            <a href="#">
+                <img src="img/pesquisa.png" alt="Pesquisa">
+            </a>
         </div>
     </header>
     
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
