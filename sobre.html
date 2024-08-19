@@ -12,17 +12,31 @@
     <div class="wave"></div>
      <div class="wave"></div>
      <div class="wave"></div>
-        <header>
-            <a href="login.html"><img src="/img/login/login.png" alt=""></a>
-            <h1>Hardware Insider</h1>
-            <div>
-                <a href="" ><img src="img/pesquisa.png" alt=""></a>
-            </div>
-                <a class="navegation_header" class="active" href="index.html">home</a>
-                <a class="navegation_header" class="active" href="dicas.html">Dicas</a>
-                <a class="navegation_header" class="active" href="sobre.html">Sobre nós</a>
-                <a class="navegation_header" class="active" href="contatos.html">Contatos</a>
-        </header>
+     <header>
+        <div class="header" id="header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </button>
+        </div>
+        <a href="login.html"><img src="/img/login/login.png" alt=""></a>
+        <div>
+        <h1>Hardware Insider</h1>
+        </div>
+        <div class="navegation_header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                </svg>
+            </button>
+            <a class="active" href="index.html">home</a>
+            <a class="active" href="dicas.html">Dicas</a>
+            <a class="active" href="sobre.html">Sobre nós</a>
+            <a class="active" href="contatos.html">Contatos</a>
+            <a href="" ><img src="img/pesquisa.png" alt=""></a>
+        </div>
+    </header>
     
 </body>
 </html>
