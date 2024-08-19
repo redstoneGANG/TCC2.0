@@ -5,9 +5,11 @@ function toggleSidebar() {
     if (isVisible) {
 
         navegationHeader.style.marginLeft = '-100vw';
-        navegationHeader.style.animationName = ''; 
+        navegationHeader.style.animationName = '-10vw';
+
     } else {
-        navegationHeader.style.marginLeft = '0';
+
+        navegationHeader.style.marginLeft = '-10vw';
         navegationHeader.style.animationName = 'showSidebar';
     }
 }

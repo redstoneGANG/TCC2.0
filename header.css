@@ -37,7 +37,7 @@ header, .navegation_header {
     cursor: pointer;
     display: none;
 }
-@media screen and (max-width: 980px){
+@media screen and (max-width: 780px){
     .btn_icon_header{
         display: block;
     }
