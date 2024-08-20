@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hardware Insider</title>
+
+    <link rel="preload" href="style.css">
+    <link rel="preload" href="sidebar.js">
     
-    <!-- Links para arquivos CSS -->
     <link rel="stylesheet" href="background.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
 </head>
 <body>
-    <!-- Divs para animação de ondas -->
     <div class="wave"></div>
     <div class="wave"></div>
     <div class="wave"></div>
     
     <header>
-        <!-- Header principal com botão para alternar a barra lateral -->
         <div class="header" id="header">
             <button onclick="toggleSidebar()" class="btn_icon_header">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -26,17 +26,14 @@
             </button>
         </div>
         
-        <!-- Link para a página de login -->
         <a href="login.html">
             <img src="/img/login/login.png" alt="Login">
         </a>
         
-        <!-- Título da página -->
         <div>
             <h1>Hardware Insider</h1>
         </div>
         
-        <!-- Barra de navegação -->
         <div class="navegation_header">
             <button onclick="toggleSidebar()" class="btn_icon_header">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
@@ -53,7 +50,6 @@
         </div>
     </header>
     
-    <!-- Link para o arquivo JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
