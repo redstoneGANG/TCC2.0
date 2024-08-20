@@ -48,7 +48,7 @@ header, .navegation_header {
         background-color: #272727;
         height: 100%;
         width: 35vw;
-        padding: 1em;
+        padding: 2em;
         animation-duration: 1s;
         margin-left: -100vw;
     }
@@ -58,7 +58,7 @@ header, .navegation_header {
         margin-left: -100vw;
     }
     to {
-        margin-left: 0;
+        margin-left: -10vw;
     }
 }
 

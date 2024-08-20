@@ -5,7 +5,7 @@ function toggleSidebar() {
     if (isVisible) {
 
         navegationHeader.style.marginLeft = '-100vw';
-        navegationHeader.style.animationName = '-10vw';
+        navegationHeader.style.animationName = 'hidesidebar';
 
     } else {
 
