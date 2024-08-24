@@ -14,6 +14,7 @@ header, .navegation_header {
 }
 .navegation_header {
     gap: 3em;
+    z-index: 2;
 }
 .navegation_header a{
     text-decoration: none;
@@ -25,41 +26,6 @@ header, .navegation_header {
     background-color: #5e5252;
     padding: 10px;
     border-radius: 10%;
-}
-.contant{
-    padding-top: 2em;
-    height: 100vh;
-    transition: 1s;
-}.btn_icon_header {
-    background-color: transparent;
-    border: none;
-    color: #ddd;
-    cursor: pointer;
-    display: none;
-}
-@media screen and (max-width: 780px){
-    .btn_icon_header{
-        display: block;
-    }
-    .navegation_header{
-        position: absolute;
-        flex-direction: column;
-        top: 0;
-        background-color: #272727;
-        height: 100%;
-        width: 35vw;
-        padding: 2em;
-        animation-duration: 1s;
-        margin-left: -100vw;
-    }
-}
-@keyframes showSidebar {
-    from {
-        margin-left: -100vw;
-    }
-    to {
-        margin-left: -10vw;
-    }
 }
 
 #navegation_header {
