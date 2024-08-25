@@ -2,9 +2,48 @@ body{
     background-image: linear-gradient(to right, rgb(4, 4, 97), rgb(58, 100, 238));
 }
 .box{
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Comic sans MS';
+    padding: 1em;
+    border-radius: 1em;
+}
+fieldset{
+    border: 5px solid dodgerblue;
+    border-radius: 7px;
+}
+legend{
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 1em;
+    width: 100%;
+    letter-spacing: 2px;
+    color: white;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser:focus ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
 }
