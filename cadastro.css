@@ -48,5 +48,9 @@ legend{
     color: dodgerblue;
 }
 #data_nacimento{
-    
+    border: none;
+    padding: 10px;
+    border-radius: 1em;
+    outline: none;
+    font-size: 1em;
 }
