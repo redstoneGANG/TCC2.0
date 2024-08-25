@@ -54,3 +54,17 @@ legend{
     outline: none;
     font-size: 1em;
 }
+#submit{
+    background-image: linear-gradient(to right, rgb(30, 78, 150), rgb(61, 151, 192));
+    border: none;
+    padding: 1em;
+    width: 100%;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Comic sans MS';
+    font-size: 1em;
+    cursor: pointer;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(5, 38, 88), rgb(19, 86, 117));
+}
