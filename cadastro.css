@@ -42,8 +42,11 @@ legend{
 .inputBox{
     position: relative;
 }
-.inputUser:focus ~ .labelInput{
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{
     top: -20px;
     font-size: 12px;
     color: dodgerblue;
+}
+#data_nacimento{
+    
 }
