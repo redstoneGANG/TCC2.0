@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="cadastro.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro | HS</title>
@@ -10,25 +12,25 @@
         <form action="">
             <fieldset>
                 <legend><b>Cadastro | HS</b></legend>
-                <br>
+                <br><br>
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>
                     <label for="nome">Nome de Usuário</label>
                 </div>
                 <div class="inputBox">
                     <input type="email" name="email" id="email" class="inputUser" required>
-                    <label for="nome">eEmail</label>
+                    <label for="nome">Email</label>
                 </div>
                 <p>Sexo:</p>
                 <input type="radio" id="feminino" name="genero" value="feminino" required>
                 <label for="feminino">Feminino</label>
-                <br>
+                <br><br>
                 <input type="radio" id="masculino" name="genero" value="masculino" required>
                 <label for="masculino">Masculino</label>
-                <br>
+                <br><br>
                 <label for="data_nacimento"><b>Data de Nacimento</b></label>
                 <input type="date" name="data_nacimento" id="data_nacimento" class="inputUser" required>
-                <br>
+                <br><br>
                 <input type="submit" name="submit" id="submit">
             </fieldset>
         </form>
