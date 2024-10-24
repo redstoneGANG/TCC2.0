@@ -1,5 +1,7 @@
 body{
-    background-image: linear-gradient(to right, rgb(4, 4, 97), rgb(58, 100, 238));
+    background-image: url(https://i.pinimg.com/originals/45/b2/e7/45b2e764d14cf9dee6dc3ed1ba0ad680.gif);
+    background-position: center;
+    
 }
 .box{
     color: white;
