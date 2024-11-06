@@ -41,3 +41,6 @@ button:hover {
     background-color: deepskyblue;
     cursor: pointer;
 }
+img{
+    size: 1em;
+}
